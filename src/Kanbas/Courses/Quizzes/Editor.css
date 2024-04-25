@@ -1,0 +1,8 @@
+.nav-link {
+  color: red !important; /* Default color for inactive links */
+}
+
+.nav-link.active {
+  color: black !important; /* Black color for active links */
+  text-decoration: underline; /* Underline for active links */
+}

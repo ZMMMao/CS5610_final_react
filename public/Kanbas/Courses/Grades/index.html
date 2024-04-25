@@ -1,0 +1,214 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css" />
+        <link rel="stylesheet" href="/Kanbas/Courses/Modules/index.css" />
+        <link rel="stylesheet" href="/Kanbas/Courses/Assignments/index.css" />
+        <link rel="stylesheet" href="/Kanbas/Courses/Assignments/Edit/index.css" />
+        <link rel="stylesheet" href="/Kanbas/Courses/Grades/index.css" />
+    </head>
+
+    <body>
+        <div class="ms-2 me-2">
+            <div class="mb-3 row">
+                <div>
+                    <button class="btn btn-secondary button-color button-size float-end">
+                        <i class="fa fa-gear"></i>
+                    </button>
+                    <button class="btn btn-secondary button-color float-end me-1">
+                        <i class="fa fa-arrow-circle-left"></i> Export
+                    </button>
+                    <button class="btn btn-secondary button-color float-end me-1">
+                        <i class="fa fa-arrow-circle-right"></i> Import
+                    </button>
+                </div>
+            </div>
+            
+            <div class="mb-3 row">
+                <div class="col-6">
+                    <label for="student-name">Student Names</label>
+                    <input type="text" id="student-name" class="form-control" placeholder="Search Students" />
+                </div>
+            
+                <div class="col-6">
+                    <label for="assignment-name">Assignment Names</label>
+                    <input type="text" id="assignment-name" class="form-control" placeholder="Search Assignments" />
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <div>
+                    <button class="btn btn-secondary button-color">
+                        <i class="fa fa-filter"></i> Apply Filters
+                    </button>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr class="table-secondary">
+                            <th>Student Name</th>
+                            <th style="text-align: center;">A1 SETUP<br />Out of 100</th>
+                            <th style="text-align: center;">A2 HTML<br />Out of 100</th>
+                            <th style="text-align: center;">A3 CSS<br />Out of 100</th>
+                            <th style="text-align: center;">A4 BOOTSTRAP<br />Out of 100</th>
+                            <th style="text-align: center;">A5 JAVASCRIPT<br />Out of 100</th>
+                            <th style="text-align: center;">A6 REACT<br />Out of 100</th>
+                            <th style="text-align: center;">A7 REDUX<br />Out of 100</th>
+                            <th style="text-align: center;">A8 NODE<br />Out of 100</th>
+                            <th style="text-align: center;">A9 MONGO<br />Out of 100</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-danger">Alice Wonderland</td>
+                            <td class="number-align">98</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">87</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">88</td>
+                            <td class="number-align">89</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align">100</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">Princes Leia</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">90</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">80</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align"><input value="85" class="input-style"/></td>
+                            <td class="number-align">96</td>
+                            <td class="number-align">100</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">Luke Skywalker</td>
+                            <td class="number-align"><input value="99" class="input-style" /></td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">88</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">93</td>
+                            <td class="number-align">100</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">Han Solo</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">96</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">88</td>
+                            <td class="number-align"><input value="86" class="input-style" /></td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">100</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">Lando Calresian</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align"><input value="92" class="input-style" /></td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">99</td>
+                            <td class="number-align">86</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">94</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">Boba Fet</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">96</td>
+                            <td class="number-align">97</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">89</td>
+                            <td class="number-align">100</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">Darth Vader</td>
+                            <td class="number-align">96</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align"><input value="96" class="input-style" /></td>
+                            <td class="number-align">85</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">94</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">100</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">Obi-Wan Kenobi</td>
+                            <td class="number-align"><input value="85" class="input-style" /></td>
+                            <td class="number-align">99</td>
+                            <td class="number-align">98</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">88</td>
+                            <td class="number-align">96</td>
+                            <td class="number-align">100</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">R2-D2</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align"><input value="92" class="input-style" /></td>
+                            <td class="number-align"><input value="82" class="input-style" /></td>
+                            <td class="number-align">88</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align"><input value="84" class="input-style" /></td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">98</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">C-3PO</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">90</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">89</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">99</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">96</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">Yoda</td>
+                            <td class="number-align">96</td>
+                            <td class="number-align">98</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">96</td>
+                            <td class="number-align">98</td>
+                            <td class="number-align">88</td>
+                            <td class="number-align">100</td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">Admiral Ackbar</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align">96</td>
+                            <td class="number-align">97</td>
+                            <td class="number-align">100</td>
+                            <td class="number-align"><input value="93" class="input-style" /></td>
+                            <td class="number-align">89</td>
+                            <td class="number-align">93</td>
+                            <td class="number-align">95</td>
+                            <td class="number-align">100</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

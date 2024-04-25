@@ -1,0 +1,79 @@
+.notification-background {
+  background-color: rgb(247, 201, 201);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.edit-link-setup {
+  text-decoration: none;
+  color: black;
+}
+
+.edit-button-background {
+  background-color: rgb(234, 230, 230);
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+}
+
+.submit-button-background {
+  background-color: none;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 1px solid darkgray;
+}
+
+.preview-button-color {
+  color: black !important;
+  background-color: rgb(234, 230, 230) !important;
+  border-color: darkgray;
+}
+
+.preview-question-link-setup {
+  text-decoration: none;
+}
+
+.quiz-saved-at {
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.question-link-unselected-setup {
+  text-decoration: none;
+  color: red;
+}
+
+.question-link-selected-setup {
+  text-decoration: none;
+  color: darkred;
+  font-weight: bold;
+}
+
+.question-block {
+  border: 1px solid darkgray;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.question-header-block {
+  border-bottom: 1px solid darkgray;
+  background-color: rgb(234, 230, 230);
+  padding: 10px;
+}
+
+.question-content {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.question-choice {
+  padding: 5px;
+}

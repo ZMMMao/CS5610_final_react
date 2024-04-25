@@ -1,0 +1,108 @@
+.breadcrumb-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+
+.breadcrumb-text {
+    color: red;
+    text-decoration: none;
+}
+
+.student-view-btn {
+    margin-right: 80px;
+}
+
+.flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.black-navbar {
+    background-color: black;
+    color: white;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.navbar-text {
+    text-align: center;
+}
+
+.left-icon {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.right-icons {
+    margin-top: 14px;
+    margin-right: 20px;
+}
+
+.collapse-margin {
+    margin-top: 10px;
+}
+
+.block-color {
+    display: block;
+    background-color: white;
+    color: red;
+    position: absolute;
+    width: 95%;
+    z-index: 10;
+    border-style: solid;
+    border-color: black;
+}
+
+.dropdown-menu-navigation {
+    list-style: none;
+    margin-left: 0px;
+    padding: 10px;
+    
+}
+
+.dropdown-menu-navigation li {
+    padding: 5px;
+    margin-bottom: 3px;
+    font-size: 1em;
+    text-align: left;
+}
+
+.dropdown-menu-navigation li a{
+    color: red;
+    text-decoration: none;
+}
+
+/*
+ Following 3 are adapted from https: //stackoverflow.com/a/58372419/16946530
+*/
+.collapse-styling {
+    display: block;
+    position: absolute;
+    top: 54px;
+    left: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    
+}
+
+.collapse-styling.collapsing {
+    height: auto !important;
+    margin-left: 50%;
+    left: 50%;
+}
+
+.collapse-styling.show {
+    left: 0;
+}

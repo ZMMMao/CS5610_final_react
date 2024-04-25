@@ -1,0 +1,27 @@
+.button-size {
+    height: 100%;
+}
+
+.circle {
+    width: 90px;
+    height: 20px;
+    border-radius: 10px!important;
+    background-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.assignment-setup {
+    text-decoration: none;
+    color: black;
+}
+
+.due-info {
+    color: grey;
+    font-size: small;
+    margin-left: 64px;
+}
+

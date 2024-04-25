@@ -1,0 +1,32 @@
+.status {
+    margin-left: 40px;
+    width: 240px;
+}
+
+.todo-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: red;
+}
+
+.circle-color {
+    color: red;
+}
+
+.todo-due {
+    color: grey;
+    font-size: small;
+}
+
+.button-group-1 button{
+    width: 110;
+    font-size: 14px;
+}
+
+.button-group-2 button{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+

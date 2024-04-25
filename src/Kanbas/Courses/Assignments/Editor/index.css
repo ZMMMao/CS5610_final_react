@@ -1,0 +1,24 @@
+.submission-border {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.submission-spacing {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.add-button {
+    width: 100%
+}
+
+.circle-icon {
+    color: green;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.publish-text {
+    color: green;
+    font-size: 18px;
+}

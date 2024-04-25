@@ -1,0 +1,9 @@
+.quiz-question-link {
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.quiz-question-link:hover {
+  text-decoration: underline;
+}

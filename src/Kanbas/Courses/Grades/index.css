@@ -1,0 +1,15 @@
+.number-align {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.input-style {
+    text-align: center;
+    border: none;
+}
+
+.button-style {
+    display: flex;
+    text-align: center;
+    gap: 5px;
+}

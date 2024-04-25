@@ -1,0 +1,15 @@
+.add-course {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 880px;
+}
+
+.card-title-style {
+    color: navy;
+    font-weight: bold;
+}
+
+.card-text-style {
+    color: gray;
+}

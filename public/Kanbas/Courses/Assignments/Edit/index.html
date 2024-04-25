@@ -1,0 +1,155 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+            <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css" />
+            <link rel="stylesheet" href="/Kanbas/Courses/Modules/index.css" />
+            <link rel="stylesheet" href="/Kanbas/Courses/Assignments/Edit/index.css" />
+    </head>
+    <body>
+        <div class="ms-2 me-2" style="width: 90%">
+            <div class="row">
+                <div>
+                    <button class="btn btn-secondary button-color float-end">
+                        <i class="fa fa-ellipsis-v"></i>
+                    </button>
+                    <div class="float-end me-3 mt-1">
+                        <i class="fa fa-check-circle text-success"></i> 
+                        <span style="color: green">Published</span>
+                    </div>
+                </div>
+            </div>
+            <hr />
+
+            <div class="mb-3 row">
+                <label for="assignment-name">
+                    Assignment Name</label>
+                <div>
+                    <input type="text" class="form-control" id="assignment-name" value="A1 - ENV + HTML">
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <div>
+                    <textarea class="form-control">This is the assignment description.</textarea>
+                </div>
+            </div>
+            
+            <div class="mb-3 row">
+                <label for="points" class="col-sm-2 col-form-label">
+                    Points</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="points" value="100">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="assignment-group" class="col-sm-2 col-form-label">
+                    Assignment Group</label>
+                <div class="col-sm-10">
+                    <select id="assignment-group" class="form-control">
+                        <option>ASSIGNMENTS</option>
+                        <option>QUIZZES</option>
+                        <option>EXAMS</option>
+                        <option>PROJECT</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="display-grad" class="col-sm-2 col-form-label">
+                    Display Grade as</label>
+                <div class="col-sm-10">
+                    <select id="display-grad" class="form-control">
+                        <option>Percentage</option>
+                        <option>Whole Points</option>
+                        <option>Letter Grade</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <input type="checkbox" name="do-not-count" id="count-final"> 
+                    Do not count this assignment towards final grade
+                </div>
+            </div>
+            
+            <div class="mb-3 row">
+                <div class="col-sm-2 col-form-label">
+                    Submission Type
+                </div>
+                <div class="col-sm-10 submission-border submission-spacing">
+                
+                    <select id="submission-type" class="form-control">
+                        <option>Online</option>
+                        <option>In Person</option>
+                    </select>
+                    <div class="mt-3">
+                        Online Entry Options
+                    </div>
+                    <div class="mt-3">
+                        <input type="checkbox" name="online-entry-options" /> Text Entry<br />
+                        <input type="checkbox" name="online-entry-options" /> Website URL<br />
+                        <input type="checkbox" name="online-entry-options" /> Media Recordings<br />
+                        <input type="checkbox" name="online-entry-options" /> Student Annotation<br />
+                        <input type="checkbox" name="online-entry-options" /> File Uploads<br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2 col-form-label">
+                    Assign
+                </div>
+                <div class="col-sm-10 submission-border submission-spacing">
+                    <div class="mb-3">
+                        <label for="assign">Assign to</label>
+                        <select id="assign" class="form-control">
+                            <option>Everyone</option>
+                            <option>Sections</option>
+                            <option>Groups</option>
+                            <option>Individuals</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="assign">Due</label>
+                        <input type="date" id="assign" class="form-control" value="2021-01-01" />
+                    </div>
+                    
+                    <div class="row">
+                    <div class="mb-3 col-6">
+                        <label for="assign">Available from</label>
+                        <input type="date" id="assign" class="form-control" value="2021-01-01" />
+                    </div>
+
+                    <div class="mb-3 col-6">
+                        <label for="assign">Until</label>
+                        <input type="date" id="assign" class="form-control" value="2021-01-01" />
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-4 row">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    <button class="btn btn-secondary button-color add-button form-control">
+                        <i class="fa fa-plus"></i> Add
+                    </button>
+                </div>
+            </div>
+            <hr />
+
+            <div class="mb-3 row">
+                <div class="col-6">
+                    <input type="checkbox" name="notify" id="notify-user">
+                    Notify users that this content has changed
+                </div>
+                <div class="col-6">
+                    <button class="btn btn-danger float-end">Save</button>
+                    <button class="btn btn-secondary button-color float-end me-1">Cancel</button>
+                </div>
+            </div>
+            <hr />
+        </div>
+    </body>
+</html>

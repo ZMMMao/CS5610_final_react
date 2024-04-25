@@ -1,0 +1,49 @@
+.wd-modules,
+.wd-modules * {
+    border-radius: 0% !important; 
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin: 5px;
+}
+
+.wd-modules > li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+    padding: 0px;
+}
+
+.wd-modules > li > div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+.wd-modules > li {
+    margin-bottom: 20px;
+}
+
+.button-color {
+    color: black !important;
+    background-color: lightgray !important;
+    border-color: black !important;
+}
+
+.dropdown {
+    border-radius: 5px;
+}
+
+.plus-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
