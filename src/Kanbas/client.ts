@@ -5,7 +5,6 @@ export const COURSES_API = `${BASE_API}/api/courses`;
 
 export interface Course {
     _id: string;
-    id: string;
     name: string;
     number: string;
     startDate: string;
@@ -33,7 +32,7 @@ export const updateCourse = async (course: any) => {
     return response.data;
 };
 
-export const findCourseById = async (id: any) => {
-    const response = await axios.get(`${COURSES_API}/${id}`);
+export const findCourseById = async (courseId: any) => {
+    const response = await axios.get(`${COURSES_API}/${courseId}`);
     return response.data;
 };

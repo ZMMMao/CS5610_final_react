@@ -13,7 +13,6 @@ function Dashboard({
 }: {
   courses: {
     _id: string;
-    id: string;
     name: string;
     number: string;
     startDate: string;
@@ -22,7 +21,6 @@ function Dashboard({
   }[];
   course: {
     _id: string;
-    id: string;
     name: string;
     number: string;
     startDate: string;
@@ -31,7 +29,6 @@ function Dashboard({
   };
   setCourse: (course: {
     _id: string;
-    id: string;
     name: string;
     number: string;
     startDate: string;
@@ -39,7 +36,7 @@ function Dashboard({
     image: string;
   }) => void;
   addNewCourse: () => void;
-  deleteCourse: (id: string) => void;
+  deleteCourse: (_id: string) => void;
   updateCourse: () => void;
 }) {
   return (
@@ -90,7 +87,7 @@ function Dashboard({
                 />
                 <div className="card-body">
                   <Link
-                    to={`/Kanbas/Courses/${course.id}/Home`}
+                    to={`/Kanbas/Courses/${course._id}/Home`}
                     style={{ textDecoration: "none" }}
                   >
                     <div className="card-title card-title-style">
