@@ -24,12 +24,6 @@ function Kanbas() {
     image: "reactjs.jpg",
   });
 
-  /*
-  const findAllCourses = async () => {
-    const response = await axios.get(COURSES_API);
-    setCourses(response.data);
-  };
-  */
   const findAllCourses = async () => {
     const courses = await client.findAllCourses();
     setCourses(courses);
