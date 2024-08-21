@@ -12,7 +12,7 @@ function Blanks({ onSave, onUpdate, onCancel, question }: BlanksProps) {
   const [questionTitle, setQuestionTitle] = useState("");
   const [points, setPoints] = useState(1);
   const [questionContent, setQuestionContent] = useState("");
-  const [blanks, setBlanks] = useState([{ answer: "" }]); // Each blank has one answer
+  const [blanks, setBlanks] = useState([{ answer: "" }]); 
 
   useEffect(() => {
     if (question) {

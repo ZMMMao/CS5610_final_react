@@ -3,7 +3,7 @@ import { Editor } from "@tinymce/tinymce-react";
 
 interface Choice {
   text: string;
-  _id?: string; // Optional, as new choices might not have an ID initially
+  _id?: string;
 }
 
 interface MultipleChoiceProps {
